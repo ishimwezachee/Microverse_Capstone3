@@ -8,7 +8,7 @@ const App = () => (
     <NavBar />
     <Routes>
       <Route exact path="/" element={<Covid />} />
-      <Route path="/country" element={<Item />} />
+      <Route path="/:country" element={<Item />} />
     </Routes>
   </BrowserRouter>
 );

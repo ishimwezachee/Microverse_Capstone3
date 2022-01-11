@@ -10,12 +10,12 @@ const CovidList = () => {
   useEffect(() => {
     dispatch(getCovidDataFromApi());
   }, []);
-
+  // data.covid.map((data) => console.log(data));
   return (
     <div>
       {
         data.covid.map((country) => (
-          <CovidItem key={country[0]} country={country[0]} />
+          <CovidItem key={country[0]} country={country[0]} data={country[1]} />
         ))
       }
     </div>
