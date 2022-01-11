@@ -1,5 +1,10 @@
 import React from 'react';
 
-const Item = () => <h1>This is Item</h1>;
+const Item = (props) => {
+  const prop = props;
+  return (
+    <p>{prop.country}</p>
+  );
+};
 
 export default Item;
