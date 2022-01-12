@@ -19,7 +19,9 @@ const CovidList = () => {
     <div>
       <input type="text" value={value} onChange={inputHandler} />
       <br />
-      {
+      <div className="data">
+        {' '}
+        {
         value ? (
           data.covid
             .filter((countryData) => countryData[0]
@@ -35,6 +37,7 @@ const CovidList = () => {
             ))
           )
       }
+      </div>
     </div>
   );
 };

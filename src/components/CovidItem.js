@@ -10,10 +10,12 @@ const Item = (props) => {
       {
         country ? (<DataList />) : (
           <Link to={`/${prop.country}`}>
-            {' '}
-            <p>{prop.country}</p>
-            <h3>{prop.data.today_deaths}</h3>
-            {' '}
+            <div className="box">
+              {' '}
+              <p>{prop.country}</p>
+              <h3>{prop.data.today_deaths}</h3>
+              {' '}
+            </div>
           </Link>
         )
       }
