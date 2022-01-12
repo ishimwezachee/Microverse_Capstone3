@@ -16,8 +16,8 @@ const CovidList = () => {
   }, []);
 
   return (
-    <div>
-      <input type="text" value={value} onChange={inputHandler} />
+    <div className="wraper">
+      <input placeholder="Search by country Name" className="input" type="text" value={value} onChange={inputHandler} />
       <br />
       <div className="data">
         {' '}
