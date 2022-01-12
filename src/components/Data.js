@@ -2,7 +2,7 @@ import React from 'react';
 
 const Data = (props) => {
   const prop = props;
-  console.log(prop);
+  // console.log(prop);
   return (
     <div>
       <h1>{prop.data.name}</h1>
