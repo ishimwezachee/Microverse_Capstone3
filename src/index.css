@@ -1,37 +1,37 @@
 
- body {
-  background: #EEF2F7;
+body {
+  background: #eef2f7;
   background-color: rgb(173, 63, 100);
 }
 
-
-.fetch_card{
+.fetch_card {
   border: 1px solid rgb(224, 223, 223);
   background-color: rgb(224, 77, 126);
   text-align: center;
 }
+
 .fetch_card:nth-child(4n+2),
 .fetch_card:nth-child(4n+3) {
   background-color: #b42159;
 }
-.box{
+
+.box {
   color: white;
   width: 100%;
 }
 
-.sub{
+.sub {
   color: white;
 }
 
-.wraper{
+.wraper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-
-.input{
+.input {
   width: 17rem;
   height: 1.5rem;
   border-radius: 10px;
@@ -40,51 +40,50 @@
   outline: none;
   font-size: 14px;
   font-family: monospace;
-  }
-
-  .data{
-    display: grid;
-    grid-template-columns: 50% 50%; 
-    padding: 2px;
-    width: 100%;
-  }
-
-
-  .country_name{
-    text-align: center;
-    font-family: monospace;
-    font-weight: 900;
 }
 
-p.item_name{
-  margin:0;
+.data {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 2px;
+  width: 100%;
+}
+
+.country_name {
+  text-align: center;
+  font-family: monospace;
+  font-weight: 900;
+}
+
+p.item_name {
+  margin: 0;
   text-align: right;
 }
 
-.icon{
+.icon {
   display: flex;
   justify-content: right;
   color: rgb(243, 243, 243);
 }
 
-.arrow{
-color: white;
-font-size: 20px;
+.arrow {
+  color: white;
+  font-size: 20px;
 }
 
-.nav{
+.nav {
   margin-top: 20px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.country_title{
-text-align: center;
+.country_title {
+  text-align: center;
 }
 
-.section{
+.section {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -94,30 +93,29 @@ text-align: center;
   font-family: monospace;
 }
 
-
-
-h2{
+h2 {
   color: white;
   font-family: monospace;
 }
 
-@media (max-width:481px)  { 
-  .data{
-     display: grid;
-    grid-template-columns: 50% 50%; 
+@media (max-width: 481px) {
+  .data {
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
-  .box{
+
+  .box {
     width: 100%;
   }
 }
 
-@media (min-width:481px)  { 
-  .dataWrapper{
+@media (min-width: 481px) {
+  .dataWrapper {
     display: flex;
     justify-content: center;
-    }
- .sub{
-   width: 50vw;
- }
-}
+  }
 
+  .sub {
+    width: 50vw;
+  }
+}
