@@ -18,6 +18,12 @@ Home view                                      |  Information view
 ## Live Link 
 [LINK Live](https://quirky-austin-ee8614.netlify.app/)
 
+
+## Vidoe Description
+
+[Video Demo](https://www.loom.com/share/c1bafc0ccb0d4ed4995be48480abd796)
+
+
 ## Getting Started
 
 **To get a copy of this repo into your local machine run the following command:**
