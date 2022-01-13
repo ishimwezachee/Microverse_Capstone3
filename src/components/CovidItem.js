@@ -7,7 +7,7 @@ const Item = (props) => {
   const { country } = useParams();
   const prop = props;
   return (
-    <div className="fetch_card">
+    <div className={country ? '' : 'fetch_card'}>
       {
         country ? (<DataList />) : (
           <Link to={`/${prop.country}`}>

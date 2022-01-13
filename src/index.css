@@ -1,76 +1,7 @@
-/* 
-body {
-  background: #EEF2F7;
-}
-
-.box {
-  box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12)
-;
-  min-height: 200px;
-  width: 40vw;
-  background: white;
-  border-radius: 5px;
-  margin: 1px;
-  text-align: center;
-  color: rgb(102, 101, 101);
-  font-family: monospace;
-}
-
-
-.dataWrapper{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.data{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.wraper{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.input{
-width: 17rem;
-height: 1.5rem;
-border-radius: 10px;
-margin-top: 20px;
-border: 1px solid gray;
-outline: none;
-font-size: 14px;
-font-family: monospace;
-}
-
-.nav{
-  text-align: center;
-  font-size: 20px;
-  font-weight: 500px;
-}
-
-.nav a{
-  color: white;
-}
-
-a{
-  text-decoration: none;
-}
- */
 
  body {
   background: #EEF2F7;
+  background-color: rgb(224, 77, 126);
 }
 
 
@@ -81,6 +12,10 @@ a{
 .box{
   color: white;
   width: 40vh;
+}
+
+.sub{
+  color: white;
 }
 
 .wraper{
@@ -107,7 +42,6 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgb(224, 77, 126);
-    border: 1px solid rgb(224, 223, 223);
   }
 
   .country_name{
@@ -127,10 +61,37 @@ p.item_name{
   color: rgb(243, 243, 243);
 }
 
+.arrow{
+color: white;
+font-size: 20px;
+}
+
+.nav{
+  margin-top: 20px;
+}
+
 a{
   text-decoration: none;
 }
 
+.dataWrapper{
+background-color: rgb(224, 77, 126);
+}
+
+
+.country_title{
+text-align: center;
+}
+
+.section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+  font-weight: 600;
+  padding: 0 10px;
+  font-family: monospace;
+}
 
 
 @media (max-width:481px)  { 
@@ -142,3 +103,14 @@ a{
     width: 100%;
   }
 }
+
+@media (min-width:481px)  { 
+  .dataWrapper{
+    display: flex;
+    justify-content: center;
+    }
+ .sub{
+   width: 50vw;
+ }
+}
+

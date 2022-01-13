@@ -4,7 +4,7 @@ import { FaAngleLeft } from 'react-icons/fa';
 
 const Nav = () => (
   <div className="nav">
-    <Link to="/">
+    <Link className="arrow" to="/">
       <FaAngleLeft />
     </Link>
   </div>

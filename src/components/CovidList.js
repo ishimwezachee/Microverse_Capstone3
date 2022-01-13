@@ -21,6 +21,7 @@ const CovidList = () => {
       <br />
       <div className="data">
         {' '}
+        <h1>List of countries</h1>
         {
         value ? (
           data.covid

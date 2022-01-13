@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Country Component test Renders Deatils 1`] = `
+<div
+  className="wraper"
+>
+  <input
+    className="input"
+    onChange={[Function]}
+    placeholder="Search by country Name"
+    type="text"
+    value=""
+  />
+  <br />
+  <div
+    className="data"
+  >
+     
+    <h1>
+      List of countries
+    </h1>
+  </div>
+</div>
+`;
