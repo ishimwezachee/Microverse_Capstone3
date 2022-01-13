@@ -19,9 +19,10 @@ const CovidList = () => {
     <div className="wraper">
       <input placeholder="Search by country Name" className="input" type="text" value={value} onChange={inputHandler} />
       <br />
+      <h2>Covid Details</h2>
       <div className="data">
         {' '}
-        <h1>List of countries</h1>
+
         {
         value ? (
           data.covid
