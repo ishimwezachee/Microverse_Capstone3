@@ -1,31 +1,26 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
+import { FaArrowCircleRight } from 'react-icons/fa';
 import DataList from './DataList';
 
 const Item = (props) => {
   const { country } = useParams();
   const prop = props;
-  console.log(prop);
   return (
-    <div>
+    <div className="fetch_card">
       {
         country ? (<DataList />) : (
           <Link to={`/${prop.country}`}>
+            <div className="icon">
+              <FaArrowCircleRight />
+            </div>
             <div className="box">
+
               {' '}
-              <h1>{prop.country}</h1>
-              <h3>
-                TODAY_CONFIRMED:
+              <h1 className="country_name">{prop.country.toUpperCase()}</h1>
+              <p className="item_name">
                 {prop.data.today_confirmed}
-              </h3>
-              <h3>
-                TODAY_RECOVERED:
-                {prop.data.today_deaths}
-              </h3>
-              <h3>
-                TODAY_DEATHS:
-                {prop.data.today_deaths}
-              </h3>
+              </p>
               {' '}
             </div>
           </Link>
