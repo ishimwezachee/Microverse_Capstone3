@@ -1,17 +1,22 @@
 
  body {
   background: #EEF2F7;
-  background-color: rgb(224, 77, 126);
+  background-color: rgb(173, 63, 100);
 }
 
 
 .fetch_card{
   border: 1px solid rgb(224, 223, 223);
+  background-color: rgb(224, 77, 126);
+  text-align: center;
 }
-
+.fetch_card:nth-child(4n+2),
+.fetch_card:nth-child(4n+3) {
+  background-color: #b42159;
+}
 .box{
   color: white;
-  width: 40vh;
+  width: 100%;
 }
 
 .sub{
@@ -38,11 +43,12 @@
   }
 
   .data{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: rgb(224, 77, 126);
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    padding: 2px;
+    width: 100%;
   }
+
 
   .country_name{
     text-align: center;
@@ -74,11 +80,6 @@ a{
   text-decoration: none;
 }
 
-.dataWrapper{
-background-color: rgb(224, 77, 126);
-}
-
-
 .country_title{
 text-align: center;
 }
@@ -92,6 +93,8 @@ text-align: center;
   padding: 0 10px;
   font-family: monospace;
 }
+
+
 
 h2{
   color: white;
