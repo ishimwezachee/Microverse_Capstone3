@@ -4,8 +4,9 @@
 > This project was built using react redux to fetch 
 > covid data for each country.
 
-![screenshot](./capstone.PNG)
-![screenshot](./capstone2.PNG)
+Home view                                      |  Information view
+:------------------------------------------------:|:-----------------------------------------------:
+![](./src/capstone.PNG)                     |  ![](./src/capsone2.PNG)
 
 
 ## Built With
