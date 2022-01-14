@@ -21,7 +21,7 @@ Home view                                      |  Information view
 
 ## Vidoe Description
 
-[Video Demo](https://www.loom.com/share/c1bafc0ccb0d4ed4995be48480abd796)
+[Video Demo](https://www.loom.com/share/408ea1544bd4414baa59fa4587e8b484)
 
 
 ## Getting Started

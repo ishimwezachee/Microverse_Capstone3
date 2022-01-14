@@ -12,13 +12,13 @@ exports[`Country Component test Renders Deatils 1`] = `
     value=""
   />
   <br />
+  <h2>
+    Covid Details
+  </h2>
   <div
     className="data"
   >
      
-    <h1>
-      List of countries
-    </h1>
   </div>
 </div>
 `;
