@@ -25,13 +25,23 @@ Home view                                      |  Information view
 
 
 ## Getting Started
+To get a local copy, just follow the steps That I am going to mention bellow:
 
-**To get a copy of this repo into your local machine run the following command:**
-```
-git clone https://github.com/ishimwezachee/Microverse_Capstone3.git
-cd Microverse_Capstone3
-in visual studio code you can click the go live button to view it live in the browser.
-```
+### Prerequisites
+
+### Setup
+To get this project in your local machine, follow these steps:
+- Open terminal 
+- clone the repository :https://github.com/ishimwezachee/Microverse_Capstone3.git
+- Cd in the project folder
+- npm run install 
+- Check the project in your browser 
+
+### Run project 
+ - run npm start
+ 
+ ### tests
+ - npm run test 
 
 
 👤 **Zachee Ishimwe**
